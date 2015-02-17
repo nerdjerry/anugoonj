@@ -330,12 +330,20 @@ section{
     }
 }
 /*sponsors*/
+.sponsors{
+    width: inherit;
+    float:left;
+    height: 600px;
+}
+.sponsorHolder{
+    padding:20px 10% 0 10%;
+}
 .sponsor{
     width:180px;
     height:180px;
     float:left;
     margin:4px;
-
+    margin-right: 5%;
     /* Giving the sponsor div a relative positioning: */
     position:relative;
     cursor:pointer;
@@ -363,11 +371,12 @@ section{
 }
 .sponsorFlip img{
     /* Centering the logo image in the middle of the .sponsorFlip div */
-
+    width: 160px;
+    height: 160px;
     position:absolute;
     top:50%;
     left:50%;
-    margin:-70px 0 0 -70px;
+    margin:-80px 0 0 -80px;
 }
 
 .sponsorData{
@@ -376,13 +385,13 @@ section{
 }
 
 .sponsorDescription{
-    font-size:11px;
-    padding:50px 10px 20px 20px;
+    font-size:20px;
+    padding:40px 10px 20px 20px;
     font-style:italic;
 }
 
 .sponsorURL{
-    font-size:10px;
+    font-size:12px;
     font-weight:bold;
     padding-left:20px;
 }
