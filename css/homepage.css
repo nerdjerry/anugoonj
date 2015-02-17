@@ -346,7 +346,7 @@ section{
 }
 @media (max-width:1024px){
     .events{
-        height: 900px;
+        height: 1350px;
     }
     .main-event,.second-line,.third-line{
         margin-left: 17%;
