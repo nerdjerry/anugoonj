@@ -300,6 +300,11 @@ section{
 .contenthover h3, .contenthover p { margin:0 0 10px 0; line-height:1.4em; padding:0; }
 .contenthover a.mybutton { display:block; float:left; padding:5px 10px; background:#55acee; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; text-decoration: none;}
 .contenthover a.mybutton:hover { background:#55acee;text-decoration: none; }
+@media (max-width:800px) {
+    .contenthover h3,.contenthover p {
+        line-height: 0.8em;
+    }
+}
 .main-event{
     margin-left: 42%;
     margin-right: 32%;
@@ -355,7 +360,7 @@ section{
 }
 @media (max-width:700px){
     .events{
-        height: 1500px;
+        height: 2000px;
     }
     .main-event,.second-line,.third-line{
         margin-left: 40%;
@@ -368,6 +373,8 @@ section{
     height: 600px;
 }
 .sponsorHolder{
+    width: 80%;
+    height: 500px;
     padding:20px 10% 0 10%;
 }
 .sponsor{
@@ -375,7 +382,9 @@ section{
     height:180px;
     float:left;
     margin:4px;
-    margin-right: 5%;
+    margin-right: 3.5%;
+    margin-left: 3.5%;
+    margin-bottom: 50px;
     /* Giving the sponsor div a relative positioning: */
     position:relative;
     cursor:pointer;
@@ -427,7 +436,29 @@ section{
     font-weight:bold;
     padding-left:20px;
 }
-
+@media (max-width:1280px) {
+    .sponsor{
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+}
+@media (max-width:1024px){
+    .sponsor{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+@media (max-width:800px){
+    .sponsor{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+@media (max-width:640px) {
+    .sponsor{
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}
 /*Footer*/  
 footer{
     clear: both;
