@@ -162,7 +162,7 @@ a:visited {
   white-space: nowrap;
 }
 .timeline-series dt a {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 1.0);
   cursor: pointer;
 }
 .timeline-series dt a .closed {
@@ -259,5 +259,12 @@ a:visited {
   margin: 15px 0;
 }
 .timeline-event-content .media p a {
-  text-transform: lowercase;
+  text-transform: ;
+}
+
+.timeline-event-content p{
+    font-size: 30px;
+    font-style: normal;
+    color: #F5F5F5;
+    text-shadow: 3px 3px 4px #FFD900;
 }
