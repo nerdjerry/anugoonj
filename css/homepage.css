@@ -196,7 +196,7 @@ section{
     margin-right: 25%;
     text-align: right;
     font-family: 'Date';
-    font-size: 30px;
+    font-size: 25px;
     color: #3D668F;
 }
 /*#ipu-logo img{
@@ -254,7 +254,7 @@ section{
 .events{
     float: left;
     width: inherit;
-    height: 1350px;
+    height: 1500px;
     display: inline-block;
     overflow: hidden;
 }
@@ -271,7 +271,7 @@ section{
 /*Star events */
 .star-events{
     width: 100%;
-    height:450px;
+    height:600px;
     float: left;
     display: inline-block;
     margin-bottom: 50px;
@@ -292,7 +292,7 @@ section{
     display: inline-block;
     margin:0 10% 0 10%;
     width:80%;
-    height:250px;
+    height:400px;
 }
 
 .contenthover { padding:20px 20px 10px 20px; }
@@ -351,7 +351,7 @@ section{
 }
 @media (max-width:1024px){
     .events{
-        height: 1350px;
+        height: 1500px;
     }
     .main-event,.second-line,.third-line{
         margin-left: 17%;
@@ -360,7 +360,7 @@ section{
 }
 @media (max-width:700px){
     .events{
-        height: 2000px;
+        height: 2150px;
     }
     .main-event,.second-line,.third-line{
         margin-left: 40%;
