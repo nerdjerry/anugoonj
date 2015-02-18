@@ -461,10 +461,10 @@ section{
         margin-left: 10%;
     }
 }
-@media (max-width:640px) {
+@media (max-width:600px) {
     .sponsor{
-        margin-left: 6%;
-        margin-right: 6%;
+        margin-left: 31%;
+        margin-right: 7%;
     }
 }
 /*Footer*/  
