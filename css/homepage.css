@@ -461,7 +461,7 @@ section{
         margin-left: 10%;
     }
 }
-@media (max-width:600px) {
+@media (max-width:650px) {
     .sponsor{
         margin-left: 31%;
         margin-right: 7%;
@@ -526,6 +526,21 @@ footer #team-name{
 footer h5 a{
     text-decoration: none;
     color: #B88B3D;
+}
+@media (max-width:630px)){
+    footer .content {
+        width: 375px;
+        padding-left: 4%;
+        font-size: 18px;
+        position: relative;
+        margin-right: 4px;
+        top: -15px;
+    }
+    footer .social-links {
+        padding-top: 20px;
+        width: 153px;
+    }
+
 }
 @media (max-width:1250px){
        footer .content{
@@ -621,7 +636,7 @@ footer h5 a{
         margin: 3px;
     }
 }
-@media (max-width:600px){
+@media (max-width:640px){
     footer .content {
         width: 375px;
         padding-left: 4%;
@@ -630,8 +645,6 @@ footer h5 a{
         margin-right: 4px;
         top: -15px;
     }
-
-
     footer .social-links {
         padding-top: 20px;
         width: 153px;
