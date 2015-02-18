@@ -55,3 +55,19 @@
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
 }
+@media (max-width:640px){
+    .contact .header{
+        font-size: 45px;
+    }
+    .contact #person{
+        font-size: 25px;
+    }
+    .contact .address, .phone{
+        font-size: 21px;
+    }
+}
+@media (max-width : 1100px) {
+    .contact #googleMap{
+        height: 381px;
+    }
+}
