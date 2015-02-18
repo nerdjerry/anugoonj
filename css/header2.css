@@ -321,13 +321,7 @@ footer{top:110px;
     background-color: #141414;
     display: inline;
 }
-footer{
-    clear: both;
-    float: left;
-    width: 100%;
-    height: 100px;
-    background-color: #141414;
-}
+
 footer .content{
     display: inline-block;
     width: 50%;
