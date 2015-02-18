@@ -305,7 +305,7 @@ section{
 .contenthover a.mybutton:hover { background:#55acee;text-decoration: none; }
 @media (max-width:800px) {
     .contenthover h3,.contenthover p {
-        line-height: 0.8em;
+        line-height: 0.6em;
     }
 }
 .main-event{
