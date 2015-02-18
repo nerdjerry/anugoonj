@@ -304,9 +304,14 @@ section{
 .contenthover #javed-button{margin-top: 10px;}
 .contenthover a.mybutton:hover { background:#55acee;text-decoration: none; }
 @media (max-width:800px) {
-    .contenthover h3,.contenthover p {
-        line-height: 0.6em;
-    }
+    .contenthover #star-name{ font-size: 50px;}
+    .contenthover #star-date sup,.contenthover .other-star-date sup{font-size:12px;}
+    .contenthover .star-time,.contenthover .star-venue{font-size: 16px; color: #FFF9C4;margin-bottom: 3px;}
+    .contenthover .other-star{font-size: 16px; margin-bottom: 2px;}
+    /*Other Content Hover*/
+    .contenthover h3{font-size:25px;color:#FF5252;}
+    .contenthover .other-star-date{ font-size: 18px; color:#B6B6B6;}
+    .contenthover .javed-short {font-size: 25px;}
 }
 .main-event{
     margin-left: 42%;
@@ -366,7 +371,7 @@ section{
         height: 2150px;
     }
     .main-event,.second-line,.third-line{
-        margin-left: 36%;
+        margin-left: 35%;
     }
 }
 /*sponsors*/
