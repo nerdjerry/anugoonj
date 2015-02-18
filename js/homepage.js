@@ -36,7 +36,7 @@ $(document).ready(function(){
     else{
     $('#super-star').contenthover({
     overlay_width:400,
-    overlay_height:270,
+    overlay_height:300,
     effect:'slide',
     slide_direction:'left',
     overlay_x_position:'left',
