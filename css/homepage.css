@@ -375,7 +375,7 @@ section{
         margin-left: 35%;
     }
 }
-@media screen and (orientaion:landscape){
+@media handheld and (orientation:landscape){
     .third-line{
         margin-left:10%;
     }
