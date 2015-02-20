@@ -375,6 +375,11 @@ section{
         margin-left: 35%;
     }
 }
+@media screen and (orientaion:landscape){
+    .third-line{
+        margin-left:10%;
+    }
+}
 /*sponsors*/
 .sponsors{
     width: inherit;
