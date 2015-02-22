@@ -455,6 +455,9 @@ section{
         font-size:10px;
         padding-left:10px;
     }
+    .sponsors{
+        height: 2000px;
+    }
 }
 @media (max-width:1280px) {
     .sponsor{
@@ -467,10 +470,16 @@ section{
         margin-right: 5%;
         margin-left: 5%;
     }
+    .sponsors{
+        height: 900px;
+    }
 @media (max-width:800px){
     .sponsor{
         margin-right: 10%;
         margin-left: 10%;
+    }
+    .sponsors{
+        height: 1100px;
     }
 }
 @media (max-width:650px) {
