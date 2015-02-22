@@ -450,15 +450,6 @@ section{
     font-weight:bold;
     padding-left:20px;
 }
-@media (max-width:650px){
-    .sponsorURL{
-        font-size:10px;
-        padding-left:10px;
-    }
-    .sponsors{
-        height: 2000px;
-    }
-}
 @media (max-width:1280px) {
     .sponsor{
         margin-right: 3%;
@@ -486,6 +477,13 @@ section{
     .sponsor{
         margin-left: 31%;
         margin-right: 7%;
+    }
+    .sponsorURL{
+        font-size:10px;
+        padding-left:10px;
+    }
+    .sponsors{
+        height: 2000px;
     }
 }
 /*Footer*/  
