@@ -446,7 +446,7 @@ section{
 }
 
 .sponsorURL{
-    font-size:12px;
+    font-size:30px;
     font-weight:bold;
     padding-left:20px;
 }
@@ -479,7 +479,7 @@ section{
         margin-right: 7%;
     }
     .sponsorURL{
-        font-size:10px;
+        font-size:30px;
         padding-left:10px;
     }
     .sponsors{
